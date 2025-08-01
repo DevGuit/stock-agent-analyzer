@@ -8,6 +8,7 @@ This project analyzes stock peaks fetching news articles and using a large langu
 
 - Python 3.12+
 - [Ollama](https://ollama.ai/) installed and running.
+- llama3.2 installed (ollama pull llama3.2)
 - A NewsAPI API key.
 
 ## Installation
