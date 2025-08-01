@@ -18,15 +18,14 @@ This project analyzes stock peaks fetching news articles and using a large langu
     cd stock-sentiment
     ```
 
-2.  **Create and activate a virtual environment:**
+2.  **Install uv:**
     ```bash
-    python -m venv .venv
-    source .venv/bin/activate
+    pip install uv
     ```
 
-3.  **Install the dependencies:**
+3.  **Install the dependencies and virtual environment:**
     ```bash
-    pip install -r requirements.txt
+    uv sync
     ```
 
 ## Configuration
@@ -41,5 +40,5 @@ This project analyzes stock peaks fetching news articles and using a large langu
 
 Run the main script:
 ```bash
-python main.py
+uv run main.py
 ```
