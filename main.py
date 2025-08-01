@@ -13,6 +13,7 @@ if usr_input == 'q':
     print('Adios!')
     exit(1)
 stock_name = usr_input
+
 company_to_ticker = {
     'APPLE': 'AAPL',
     'MICROSOFT': 'MSFT',
