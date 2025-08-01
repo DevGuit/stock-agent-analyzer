@@ -1,5 +1,7 @@
 # Stock Sentiment Analysis
 
+![Stock Sentiment Analysis Demo](demo.gif)
+
 This project analyzes stock sentiment by fetching news articles and using a large language model to determine the sentiment of each article.
 
 ## Prerequisites
