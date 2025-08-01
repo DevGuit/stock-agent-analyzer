@@ -10,7 +10,7 @@ beautiful_print()
 # Select the stock
 usr_input = input("\n\n\n  Insert the stock name (e.g.: APPLE, MICROSOFT, GOOGLE, META, AMAZON) or press 'q to exit:\n  ")
 if usr_input == 'q':
-    print('A  dios!')
+    print('Adios!')
     exit(1)
 stock_name = usr_input
 company_to_ticker = {

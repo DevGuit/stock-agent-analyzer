@@ -4,6 +4,7 @@ import os
 import pandas as pd
 from rich.console import Console
 from rich.panel import Panel
+from rich.align import Align
 from pyfiglet import Figlet
 
 load_dotenv()
@@ -36,4 +37,4 @@ def beautiful_print():
     ascii_art = fig.renderText('devguit')
 
     # Display with rich panel
-    console.print(Panel(ascii_art, title="Welcome", subtitle="devguit terminal", border_style="bold cyan"))
+    console.print(Panel(Align.center(ascii_art), title="Welcome", subtitle="devguit terminal", border_style="bold cyan"))
