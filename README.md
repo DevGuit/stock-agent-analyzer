@@ -1,8 +1,8 @@
-# Stock Sentiment Analysis
+# Stock Agent Analysis
 
-![Stock Sentiment Analysis Demo](demo.gif)
+![Stock Agent Analysis Demo](demo.gif)
 
-This project analyzes stock sentiment by fetching news articles and using a large language model to determine the sentiment of each article.
+This project analyzes stock peaks fetching news articles and using a large language model to understanding the reasons of the stock variation.
 
 ## Prerequisites
 
